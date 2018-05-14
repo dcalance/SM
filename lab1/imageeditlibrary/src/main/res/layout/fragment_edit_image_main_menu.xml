@@ -1,92 +1,85 @@
-<HorizontalScrollView
-    android:id="@+id/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:scrollbars="none"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="fill_parent">
+    android:layout_height="@dimen/bottom_banner_height"
+    android:gravity="center"
+    android:orientation="horizontal">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:orientation="horizontal">
+        android:id="@+id/btn_paint"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/btn_paint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="@dimen/image_edit_menu_margin"
-            android:gravity="center"
-            android:text="@string/edit"
-            android:textColor="@color/white"
-            android:textSize="@dimen/image_edit_text_size"/>
-
-        <TextView
-            android:id="@+id/btn_stickers"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="@dimen/image_edit_menu_margin"
-            android:gravity="center"
-            android:text="@string/stickers"
-            android:textColor="@color/white"
-            android:textSize="@dimen/image_edit_text_size"/>
-
-        <TextView
-            android:id="@+id/btn_filter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="@dimen/image_edit_menu_margin"
-            android:gravity="center"
-            android:text="@string/filter"
-            android:textColor="@color/white"
-            android:textSize="@dimen/image_edit_text_size"/>
-
-        <TextView
-            android:id="@+id/btn_crop"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="@dimen/image_edit_menu_margin"
-            android:gravity="center"
-            android:text="@string/crop"
-            android:textColor="@color/white"
-            android:textSize="@dimen/image_edit_text_size"/>
-
-        <TextView
-            android:id="@+id/btn_rotate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="@dimen/image_edit_menu_margin"
-            android:gravity="center"
-            android:text="@string/rotate"
-            android:textColor="@color/white"
-            android:textSize="@dimen/image_edit_text_size"/>
-
-        <TextView
-            android:id="@+id/btn_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="@dimen/image_edit_menu_margin"
-            android:gravity="center"
-            android:text="@string/text"
-            android:textColor="@color/white"
-            android:textSize="@dimen/image_edit_text_size"/>
-
-        <TextView
-            android:id="@+id/btn_beauty"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="@dimen/image_edit_menu_margin"
-            android:gravity="center"
-            android:text="@string/beauty"
-            android:textColor="@color/white"
-            android:textSize="@dimen/image_edit_text_size"/>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/edit"
+            android:src="@drawable/edit_image_pen_tool_selector" />
 
     </LinearLayout>
-</HorizontalScrollView>
+    <LinearLayout
+        android:id="@+id/btn_stickers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/stickers"
+            android:src="@drawable/edit_image_emotion_selector" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/text"
+            android:src="@drawable/edit_image_text_tool_selector" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_mosaic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/mosaic"
+            android:src="@drawable/edit_image_mosaic_tool_selector" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_crop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/crop"
+            android:src="@drawable/edit_image_crop_selector" />
+
+    </LinearLayout>
+
+</LinearLayout>
 

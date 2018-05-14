@@ -23,5 +23,3 @@ typedef struct {
     float s;        /* Saturation between 0.0 (gray) and 1.0 */
     float b;        /* Value between 0.0 (black) and 1.0 */
 } HSBColour ;
-
-
