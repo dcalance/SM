@@ -1,0 +1,69 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:5:5-42
+	android:versionName
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:8:5-30
+		INJECTED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:4:5-51
+	xmlns:android
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:3:5-63
+	tools:ignore
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:6:5-44
+	android:versionCode
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:7:5-28
+		INJECTED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:10:3-13:39
+	android:targetSdkVersion
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:13:7-36
+	tools:ignore
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:11:7-34
+	android:minSdkVersion
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:12:7-33
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:15:3-63
+	android:name
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:15:20-60
+uses-feature#android.hardware.camera
+ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:16:3-58
+	android:name
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:16:17-55
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:17:3-68
+	android:name
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:17:17-65
+application
+ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:19:3-34:17
+	android:label
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:21:7-39
+	android:icon
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:22:7-43
+	android:allowBackup
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:20:7-33
+activity#org.billthefarmer.histogram.CameraActivity
+ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:24:5-32:16
+	android:label
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:26:9-41
+	android:theme
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:27:9-67
+	android:name
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:25:9-38
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:28:7-31:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:29:9-61
+	android:name
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:29:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:30:9-69
+	android:name
+		ADDED from C:\Users\User\Desktop\sm\SM\Lab2\src\main\AndroidManifest.xml:30:19-66
